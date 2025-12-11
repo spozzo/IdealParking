@@ -1,0 +1,79 @@
+
+html{
+    font-family: Palatino, serif;
+    background-image: url(sky_line_2.jpeg);
+    background-size: 200%;
+}
+h1 {
+    background-color: #152935ff;
+    color: #FFF8EB;
+    border: 4px #FFF8EB solid;
+    text-align: center;
+    font-size: 30px;
+    line-height: 70px;
+    }
+body {
+    align-content: center;
+    text-align: center;
+    color: #FFF8EB;
+    }
+
+form {
+    background-color: #152935ff;
+    padding: 20px;
+    font-size: 25px;
+    text-align: left;
+    }
+h4 {
+    display: inline-block;
+    border: 4px #FFF8EB solid;
+    background-color: #152935ff;
+    font-size: 30px;
+    text-align: left;
+    padding: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    line-height: 40px;
+}
+h2 {
+    background-color: #152935ff;
+    color: #FFF8EB;
+    font-size: 30px;
+    margin-top: 7px;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 5px;
+    }
+a {
+    color: #FFF8EB;
+    }
+div {
+    display: inline-block;
+    background-color: #0D5679ff;
+    font-size: 24px;
+    text-align: center;
+    padding: 40px;
+    line-height: 30px;
+    border: 4px #FFF8EB solid;
+    margin-left: 25px;
+    margin-right: 25px;
+    }
+p {
+    align-content: center;
+    margin: 40px;
+
+}
+label{
+    margin-right: 20px;
+}
+input{
+    font-size: 20px;
+    color: #0D5679ff;
+    background-color: #FFF8EB;
+    border: #0D5679ff 5px solid;
+    padding: 5px;
+}
+
+footer{
+    padding: 20px;
+}

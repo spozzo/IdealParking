@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Ideal Parking </title>
+
+<link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet">
+
+</head>
+<body>
+<h1>
+
+    Find where to park!
+
+</h1>
+{% block content %}{% endblock %}
+<footer>Data from <a href="https://data.seattle.gov/Transportation/Annual-Parking-Study-Data/7jzm-ucez/about_data" >City of Seattle  Annual Study Data API</a> and <a href="https://www.openstreetmap.org" >OpenStreetMap</a> .</footer>
+</body>
+</html>

@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block content %}
+<h4> Choose fewer, or just one, neighborhoods for faster runtime </h4>
+<div class="container">
+<form action="/results" method="post">
+    <p>
+
+        <label for="address">Address: </label>
+        <input type="text" id="address" name="address">
+    </p>
+    <p>
+        <label for="radius">Mile Radius: </label>
+        <input type="number" id="radius" name="radius" value = "0.5" step = "0.1">
+    </p>
+    <p>
+        <label for="neighborhoods">Neighborhoods: </label>
+        <select id = "neighborhoods" name="neighborhoods" size="7" multiple>
+            <option value='University District'>University District</option>
+            <option value='Roosevelt'>Roosevelt</option>
+            <option value='Ballard'>Ballard</option>
+            <option value='Fremont'>Fremont</option>
+            <option value='Greenlake'>Greenlake</option>
+            <option value='Lake City'>Lake City</option>
+            <option value='Capitol Hill'>Capitol Hill</option>
+            <option value='First Hill'>First Hill</option>
+            <option value='Pike-Pine'>Pike-Pine</option>
+            <option value='Westlake'>Westlake</option>
+            <option value='Belltown'>Belltown</option>
+            <option value='South Lake Union'>South Lake Union</option>
+            <option value='Uptown'>Uptown</option>
+            <option value='Cherry Hill'>Cherry Hill</option>
+            <option value='Denny Triangle'>Denny Triangle</option>
+            <option value='Pioneer Square'>Pioneer Square</option>
+            <option value='Chinatown/ID'>Chinatown/ID</option>
+            <option value='Little Saigon'>Little Saigon</option>
+            <option value='Dexter'>Dexter</option>
+            <option value='Commercial Core'>Commercial Core</option>
+            <option value='SODO'>SODO</option>
+            <option value='Columbia City'>Columbia City</option>
+            <option value='West Seattle'>West Seattle</option>
+        </select>
+    </p>
+    <p>Hold command (Mac) or control (Windows) to select multiple at a time.</p>
+    <p><input type="submit" value="SUBMIT"></p>
+</form>
+</div>
+{% endblock %}
