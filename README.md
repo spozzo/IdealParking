@@ -25,7 +25,7 @@ Next, you'll need to sign in to the City of Seattle's Open Data website, using t
 
 Accept the license agreement, and then open the link once again: [Sign in/APP token](https://data.seattle.gov/profile/edit/developer_settings)
 
-### 3. Creating an APP Token, and Adding It to the Program
+### 3. Creating an APP Token, and adding it to the program
 Click "Create New APP Token", and fill out the information.
 
 Copy this new token into the "APP Token" variable in app.py, and the program should run! 
